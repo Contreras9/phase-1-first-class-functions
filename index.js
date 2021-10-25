@@ -22,3 +22,12 @@ function returnsANamedFunction() {
 function returnsAnAnonymousFunction() {
     return function(){return 5};
 }
+
+
+/*let weirdFunction = returnsAWeirdfunction();
+
+weirdFunction(() => console.log("Hello"));
+
+function returnsAWeirdfunction() {
+    return receivesAFunction;
+}*/
